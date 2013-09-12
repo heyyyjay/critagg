@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrowdCrit Aggregator</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" href="custom/style.css" />
+</head>
+
+<body>
+
+	<div class="container">
+
+	<h2>Critique Aggregation: Javascript Demo</h2>
+	<div class="row">
+		<div class="span12">
+			<p>This page demos javascript written by Jay Tolentino to display aggregated information on design critiques for the Crowd Critique (or CrowdCritter) research project at Carnegie Mellon University in August 2013. The following information is all fictional and not respresentative of the information used in the research study. The main purpose of this page is to demo functionality. For more detials, check the ReadMe file on <a href="https://github.com/heyyyjay/critagg">GitHub</a>!</p>
+			<hr />
+		</div>
+	</div>
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#tab-approp" data-toggle="tab">Font Type</a></li>
+		<li><a href="#tab-layout" data-toggle="tab">Color Choice</a></li>
+	</ul>
+	
+	<div class="row">
+		<div class="span12">
+			<div class="tab-content">
+					<div class="tab-pane active" id="tab-approp">
+						<div id="title-approp" class="row-fluid"></div>
+					</div>
+					<div class="tab-pane" id="tab-layout">
+						<div id="title-layout" class="row-fluid"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="color-js-master/color.js"></script>
+	<script src="custom/aggregation.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+body {
+font-weight: 200;
+font-size: 13px;
+}
+
+div#distrib-all {
+height: 400px;
+}
+
+div.principle-col {
+float: left;
+margin-left: 30px;
+height: 300px;
+}
+
+div.principle-row {
+border-bottom: 1px dotted #fff;
+width: 45px;
+}
+div.principle-row:hover {
+	/*background-color: #08c !important;
+	 border: solid 1px #000; */
+	outline: solid 3px #08c;
+	}
+
+div.principle-label {
+margin-left: -20px;
+margin-top: 35px;
+font-size: small;
+-webkit-transform: rotate(300deg);
+-moz-transform: rotate(300deg);
+-o-transform: rotate(300deg);
+writing-mode: lr-tb;
+}
+
+td.design-label {
+vertical-align: top;
+text-align: right;
+width: 65px;
+color: #666;
+text-transform: uppercase;
+font-size: 11px;
+padding-right: 1em;
+}
+
+td#design-title {
+font-weight: bold;
+}
+
+tr.shaded {
+background-color: #eee;
+}
+
+td.percentage {
+font-size: 20px;
+text-align: right;
+}
+
+div.row-fluid .span1, div.row-fluid .span2, div.row-fluid .span3, div.row-fluid .span4, div.row-fluid .span5, div.row-fluid .span6, div.row-fluid .span7, div.row-fluid .span8, div.row-fluid .span9, div.row-fluid .span10, div.row-fluid .span11, div.row-fluid .span12 {
+	padding: 7px;
+}
+
+div.principle-name {
+	font-size: 1.35em;
+	font-weight: 600;
+}
+
+div.statement {
+	background-color: #eee;
+		height: 35px;
+}
+
+div.statement:hover {
+	cursor: pointer;
+	background-color: #d8f0fc;
+	color: #08c;
+}
+	div.statement div.percentage {
+		height: 35px;
+	}
+
+div.critique:hover {
+	background-color: #f7f7f7;
+	cursor: pointer;
+}
+
+div.expertise {
+	color: #999;
+	font-size: .85em;
+}

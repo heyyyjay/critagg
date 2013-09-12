@@ -1,0 +1,73 @@
+{
+	"name": "Color Choice",
+	"statement": [
+		{
+			"name": "Harmonious Color Choice",
+			"percentage": 13,
+			"valence": "positive",
+			"critique": [
+				{
+					"comment": null,
+					"expertise": 57
+				},
+				{
+					"comment": "Colors work well together.",
+					"expertise": 42
+				}
+			]
+		},
+		{
+			"name": "Appropriate Color Choice",
+			"percentage": 7,
+			"valence": "positive",
+			"critique": [
+				{
+					"comment": "color choice is appropriate",
+					"expertise": 57
+				}
+			]
+		},
+		{
+			"name": "Too Many Colors",
+			"percentage": 27,
+			"valence": "negative",
+			"critique": [
+				{
+					"comment": "Generally speaking, having too many colors from all sides of the spectrum looks messy and confusing. Choose at most maybe 4 colors, with 1 color that is obviously dominant.",
+					"expertise": 85
+				},
+				{
+					"comment": "The many colors makes the design confusing.",
+					"expertise": 71
+				},
+				{
+					"comment": "i don't like the colors",
+					"expertise": 57
+				},
+				{
+					"comment": null,
+					"expertise": 57
+				}
+			]
+		},
+		{
+			"name": "Poor Color Choice",
+			"percentage": 20,
+			"valence": "negative",
+			"critique": [
+				{
+					"comment": "The color of the text here makes it very difficult to read. Try something lighter or with more contrast.",
+					"expertise": 85
+				},
+				{
+					"comment": "The colors are too bright, hurts my eyes...",
+					"expertise": 71
+				},
+				{
+					"comment": "this color looks bad here",
+					"expertise": 71
+				}
+			]
+		}
+	]
+}

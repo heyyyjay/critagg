@@ -1,0 +1,42 @@
+{
+	"name": "Font Type",
+	"statement": [
+		{
+			"name": "Very Legible Font",
+			"percentage": 25,
+			"valence": "positive",
+			"critique": [
+				{
+					"comment": "Font easy to read",
+					"expertise": 71
+				}
+			]
+		},
+		{
+			"name": "Too Many Font Types",
+			"percentage": 50,
+			"valence": "negative",
+			"critique": [
+				{
+					"comment": "Many fonts here are distracting",
+					"expertise": 57
+				},
+				{
+					"comment": "Limit font types down to maybe 3 max. Will improve the design's overall balance.",
+					"expertise": 71
+				}
+			]
+		},
+		{
+			"name": "Bad Font Size",
+			"percentage": 25,
+			"valence": "negative",
+			"critique": [
+				{
+					"comment": "font size in title too small. makes it difficult to discern what is the title of the event",
+					"expertise": 85
+				}
+			]
+		}
+	]
+}
